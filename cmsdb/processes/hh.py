@@ -88,7 +88,7 @@ hh_ggf = hh.add_process(
 hh_ggf_kl1_kt1 = hh_ggf.add_process(
     name="hh_ggf_kl1_kt1",
     id=21002,
-    label=r"$HH_{ggf}^{\kappa_\lambda=1}$",
+    label=r"$HH$",  # _{ggf}^{\kappa_\lambda=1}$",
     xsecs={
         # sm values taken from summary table on twiki
         13: 0.001 * Number(30.77, {

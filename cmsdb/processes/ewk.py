@@ -806,7 +806,7 @@ z_qq_2j_pt600toinf = z_qq.add_process(
 w = Process(
     name="w",
     id=6000,
-    label="W + jets",
+    label="W",  # + jets",
     # TODO, or use w.set_xsec(13, w_lnu.get_xsec(13) / const.br_w.lep) below?
 )
 

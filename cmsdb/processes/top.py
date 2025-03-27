@@ -44,7 +44,7 @@ from cmsdb.util import multiply_xsecs
 tt = Process(
     name="tt",
     id=1000,
-    label=r"$t\bar{t}$ + Jets",
+    label=r"$t\bar{t}$",  # + Jets",
     color=(205, 0, 9),
     xsecs={
         13: Number(833.9, {
